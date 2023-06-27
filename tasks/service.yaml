@@ -1,0 +1,6 @@
+- name: controlling the service 
+  service:
+    name: nginx
+    state: started
+    enabled: true
+

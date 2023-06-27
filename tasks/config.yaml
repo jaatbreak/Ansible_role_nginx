@@ -1,0 +1,4 @@
+- name: Copy the index file to destination
+  copy:
+    src: files/index.html
+    dest: /usr/share/nginx/html
